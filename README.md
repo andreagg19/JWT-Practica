@@ -1,1 +1,5 @@
 # JWT-Practica
+
+La librería uuid es una herramienta para la generación de identificadores únicos universales (UUID, por sus siglas en inglés). Estos identificadores son cadenas de caracteres de 128 bits que se utilizan para identificar de manera única un objeto o entidad en un sistema. La principal ventaja de utilizar UUID en lugar de identificadores autonuméricos es que son realmente únicos en todo el mundo, lo que significa que no hay posibilidad de que dos entidades en diferentes sistemas o bases de datos tengan el mismo identificador. Los identificadores autonuméricos, por otro lado, sólo son únicos dentro del contexto de una sola base de datos.
+
+El parámetro de "Salt Rounds" en la librería bcryptjs se refiere al número de rondas de hashing que se utilizan para cifrar una contraseña. El algoritmo de hashing bcrypt convierte la contraseña en una cadena cifrada irreversible antes de almacenarla en la base de datos. El parámetro de Salt Rounds determina la cantidad de tiempo que se necesitará para cifrar la contraseña, lo que a su vez afecta la seguridad de la contraseña cifrada.
